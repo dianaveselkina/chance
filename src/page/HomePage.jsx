@@ -4,10 +4,11 @@ import './page.css';
 function HomePage() {
   return (
     <div className="homepage">
+      <div className="homepage_title"></div>
       <div className="homepage_img"></div>
-      <button>
-        <Link to="/.data">InfoPage</Link>{' '}
-      </button>
+      <Link to="/.data">
+        <div className="homepage_button"></div>
+      </Link>
     </div>
   );
 }

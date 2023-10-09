@@ -40,9 +40,14 @@ function InfoPage() {
           <option value="12">21.02-20.03</option>
         </select>
       </div>
-      <Link to="/.result">
-        <div className="homepage_button"></div>
-      </Link>
+      <div className="result_button">
+        <Link to="/.result">
+          <div className="homepage_button2"></div>
+        </Link>
+        <Link to="/.result">
+          <div className="homepage_button3"></div>
+        </Link>
+      </div>
     </>
   );
 }
